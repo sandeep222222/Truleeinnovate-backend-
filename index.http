@@ -1,0 +1,38 @@
+
+POST http://localhost:3000/candidates
+Content-Type: application/json
+
+[
+  {
+    "name": "sandeep",
+    "phone": "9999999999",
+    "email": "dummy202gmail.com",
+    "gender": "Male",
+    "experience": 1,
+    "skills": ["python", "nodejs"]
+  },
+  {
+    "name": "sanju",
+    "phone": "9999999999",
+    "email": "dummy202gmail.com",
+    "gender": "Male",
+    "experience": 1,
+    "skills": ["python", "nodejs"]
+  
+  },
+  {
+    "name": "sanj",
+    "phone": "9999999999",
+    "email": "dummy202gmail.com",
+    "gender": "Male",
+    "experience": 1,
+    "skills": ["python", "nodejs"]
+  }
+]
+
+
+###
+
+GET http://localhost:3000/candidates
+###
+
